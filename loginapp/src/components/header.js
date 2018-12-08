@@ -3,12 +3,12 @@ import { Text, View } from 'react-native';
 
 
 // creating header component
-const Header = () => {
+const Header = (props) => {
     const { textStyle, viewStyle } = styles;
 
     return ( 
     <View style={viewStyle}>
-    <Text style={textStyle}>Fitness App</Text>
+    <Text style={textStyle}>{props.headerText}</Text>
     </View>
     );
 };

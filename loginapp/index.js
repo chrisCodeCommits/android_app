@@ -18,7 +18,7 @@ import Header from './src/components/header';
 
 //creating components
 const App = () => (
-     < Header />
+     < Header headerText={'Fitness App'} />
 );
 
 // rendering components to display on the device
