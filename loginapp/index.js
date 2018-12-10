@@ -1,25 +1,7 @@
 /** @format */
 
-//import {AppRegistry} from 'react-native';
-//import App from './App';
-//import {name as appName} from './app.json';
-//
-//AppRegistry.registerComponent(appName, () => App);
-
-
-//==================================================
-
-
-// importing libraries
-import React from 'react';
 import { AppRegistry } from 'react-native';
-import Header from './src/components/header';
+import App from './src/App';
 
-
-//creating components
-const App = () => (
-     < Header headerText={'Fitness App'} />
-);
-
-// rendering components to display on the device
 AppRegistry.registerComponent('loginapp', () => App);
+

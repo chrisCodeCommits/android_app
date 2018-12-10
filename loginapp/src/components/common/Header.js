@@ -31,7 +31,4 @@ const styles = {
     }
 };
 
-
-// making this component accessible
-// to indexjs
-export default Header;
+export { Header };
