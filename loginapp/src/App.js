@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
     <View>
-      <Header headerText='Fitness App' />
+      <Header headerText='LOGO' />
       <LoginForm />
     </View>
     );
